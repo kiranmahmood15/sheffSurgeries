@@ -1,4 +1,4 @@
-package appointmentsystem
+package com.kMahmood
 
 class BootStrap {
 

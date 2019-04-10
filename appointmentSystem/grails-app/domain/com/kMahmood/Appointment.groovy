@@ -7,6 +7,10 @@ int appTime
 int appDuration
 int roomNumber
 
+Patient patients
+
+static hasMany=[surgeries: Surgery, appointments: Appointment]
+
     static constraints = {
 
 appDate blank: false, nullable: false
